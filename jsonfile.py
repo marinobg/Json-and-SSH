@@ -1,7 +1,6 @@
 def dump_topology():
 	with open('topology.txt', 'r') as infile:
 		lines = infile.readlines()
-		print(lines)
 
 def read_json(filename):
 	import json
@@ -14,5 +13,5 @@ def read_json(filename):
 
 
 
-#read_json('topology_mar1.json')
-dump_topology()
+read_json('topology_mar1.json')
+#dump_topology()
