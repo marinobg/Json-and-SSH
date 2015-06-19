@@ -1,3 +1,7 @@
+def dum_topology():
+	with open('topology.txt', 'r') as infile:
+		lines = infile.readlines()
+
 def read_json(filename):
 	import json
 	from pprint import pprint

@@ -1,0 +1,31 @@
+{
+
+    "1": {
+
+        "ap": true,
+ 
+       "channel": 1,
+
+        "txpower": 20,
+
+        "clients": [
+
+            7
+
+        ],
+ 
+       "enabled": true
+
+    },
+ 
+   "7": {
+
+        "ap": false,
+ 
+       "txpower": 20,
+
+        "enabled": true
+
+    }
+
+}
