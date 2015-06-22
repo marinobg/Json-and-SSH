@@ -20,6 +20,7 @@ def scan(filename, nodeid):
 
 
 def dump_topology(nodeids):
+	import json
 	with open('topology.txt', 'r') as infile:
 		lines = infile.readlines()
 
@@ -40,7 +41,9 @@ def dump_topology(nodeids):
 			results[ap]['clients'].append(int(nodeid))
 
 
-	return results
+	obj = open('top.json', 'w')
+	json.dump(results, obj)
+	obj.close()
 
 
 
