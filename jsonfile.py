@@ -42,7 +42,7 @@ def dump_topology(nodeids):
 
 
 	obj = open('top.json', 'w')
-	json.dump(results, obj)
+	json.dump(results, obj, indent=4)
 	obj.close()
 
 

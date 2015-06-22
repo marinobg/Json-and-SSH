@@ -1,1 +1,11 @@
-{"1": {"ap": true, "clients": [7]}, "7": {"ap": false}}
+{
+    "1": {
+        "ap": true,
+        "clients": [
+            7
+        ]
+    },
+    "7": {
+        "ap": false
+    }
+}
